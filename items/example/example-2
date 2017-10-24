@@ -1,0 +1,5 @@
+name: Alternate example
+alt A
+alt B
+alt C
+import: data/example-data
