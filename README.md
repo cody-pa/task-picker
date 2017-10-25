@@ -41,7 +41,7 @@ Names in a file will overwrite names from the files they import.
 
 All other lines are possible values. For example:
 
-`#file: colors`
+#### file: colors
 ```
 name: Color
 import: data/secondary-colors
@@ -49,7 +49,7 @@ Red
 Green
 Blue
 ```
-`#file: data/secondary-colors`
+#### file: data/secondary-colors
 ```
 Cyan
 Magenta
@@ -130,7 +130,7 @@ somedirectory
              |                              4 }
              |
              |------subdir-2 ------ _meta { name: Top level option }
-
+```
 Possible output:
 ```
 Super: Subfile
